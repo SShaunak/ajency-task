@@ -31,26 +31,40 @@ header {
 
 form {
     width: 300px;
-    margin: 0 auto;
+    margin:0 auto;
     border: 2px solid white;
-    background-color: white;
+    background-color: #f2f2f2;
     border-radius: 5px;
     margin-top: 15%;
-    padding: 20px;
+    padding: 50px;
 
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #0650c9;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  width: 100%;
+  padding: 7px;
+
 
 }
 
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+input[type=text], select {
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  
+
+  
 }
